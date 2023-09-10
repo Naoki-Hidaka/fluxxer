@@ -1,39 +1,31 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Fluxxer
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+A robust and scalable Flux architecture library for Flutter.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Features:
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- **Easy to Implement**: Simple setup and minimal boilerplate.
+- **Scalable**: Built with large applications in mind.
+- **Strongly Typed**: Utilizes Dart's type system for enhanced type safety.
+- **Well Documented**: Comprehensive documentation to get you started quickly.
 
-## Features
+## Installation:
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Add this to your package's `pubspec.yaml` file:
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  fluxxer: ^0.1.0
 ```
 
-## Additional information
+Then run:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```bash
+$ flutter pub get
+```
+
+## Quick Start
+
+1. Define your Actions.
+2. Set up the Store.
+3. Connect your Flutter Builder.
