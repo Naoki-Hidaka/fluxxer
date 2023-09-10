@@ -1,1 +1,1 @@
-abstract interface class Action {}
+abstract class Action {}

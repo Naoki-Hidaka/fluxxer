@@ -1,1 +1,1 @@
-abstract interface class State {}
+abstract class State {}
