@@ -2,7 +2,7 @@ import 'package:example/action_creators/todo_list_action_creators.dart';
 import 'package:example/repository/fake/fake_list_repository.dart';
 import 'package:example/stores/todo_list_store.dart';
 import 'package:flutter/material.dart';
-import 'package:fluxxer/view/flux_view.dart';
+import 'package:fluxxer/view/fluxxer_builder.dart';
 
 class TodoListPage extends StatefulWidget {
   const TodoListPage({Key? key}) : super(key: key);
@@ -47,7 +47,7 @@ class _TodoListSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FluxView(
+    return FluxxerBuilder(
       store: store,
       builder: (context, snapshot) {
         if (!snapshot.hasData && !snapshot.hasError) {

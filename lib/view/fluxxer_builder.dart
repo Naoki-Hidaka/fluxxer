@@ -4,9 +4,9 @@ import 'package:fluxxer/store/state.dart' as flux_state;
 import 'package:fluxxer/action/action.dart' as flux_action;
 import 'package:fluxxer/action_creator/action_creator.dart';
 
-class FluxView<T extends flux_state.State, A extends flux_action.Action, AC extends ActionCreator>
+class FluxxerBuilder<T extends flux_state.State, A extends flux_action.Action, AC extends ActionCreator>
     extends StatelessWidget {
-  const FluxView({
+  const FluxxerBuilder({
     super.key,
     required this.store,
     required this.builder,

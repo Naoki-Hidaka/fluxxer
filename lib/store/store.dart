@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:example/stores/todo_list_store.dart';
 import 'package:fluxxer/action/action.dart';
 import 'package:fluxxer/action_creator/action_creator.dart';
 import 'package:fluxxer/dispatcher/dispatcher.dart';
