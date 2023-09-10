@@ -1,6 +1,6 @@
 name: fluxxer
 description: A robust and scalable Flux architecture library for Flutter.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/Naoki-Hidaka/fluxxer
 
 environment:
