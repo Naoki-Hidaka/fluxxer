@@ -1,7 +1,7 @@
 name: fluxxer
-description: A new Flutter package project.
+description: A robust and scalable Flux architecture library for Flutter.
 version: 0.0.1
-homepage:
+repository: https://github.com/Naoki-Hidaka/fluxxer
 
 environment:
   sdk: '>=3.1.1 <4.0.0'
